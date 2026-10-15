@@ -19,11 +19,13 @@ def link_records(anon_df, aux_df):
     containing ONLY uniquely matched records.
     """
     keys = ["age", "gender", "zip3"]
-    merged = pd.merge(
-        anon_df,
-        aux_df,
-        on=keys,
-        how="inner"
+    unique_anon = ~anon_df.duplicated(subset=keys, keep=False)
+    unique_aux = ~aux_df.duplicated(subset=keys, keep=False)
+    valid_anon = anon_df.loc[unique_anon, keys + ["anon_id"]]
+    valid_aux = aux_df.loc[unique_aux, keys + ["name"]]
+    matches = pd.merge(valid_anon, valid_aux, on=keys, how="inner")
+    return matches[["anon_id", "name"]].rename(
+        columns={"name": "matched_name"}
     )
 
 
