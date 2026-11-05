@@ -16,3 +16,12 @@ Your goal is to connect anonymized data back to its source data and check the ma
 
 ### Module 08: Sustainability in Computing
 You will be given a toy dataset and have the opportunity to explore the potential effects of choosing sustainable energy sources to perform computations. You'll code the energy calculation in "sustainability calculations" script, and then you can review the results of various decisions in the "check calculations" notebook. 
+
+
+## My Personal Ethics Statement
+
+To me, being ethical means taking responsibility for my actions and treating everyone fairly. I believe accountability, empathy, and respect are some of the most important values to follow, especially as AI becomes more involved in our everyday lives. I think AI should be used as a tool to help people develop and improve their ideas rather than something that completely takes over decision-making. For important decisions that affect people's lives, I believe a human should review the AI's recommendation and have the final say.
+
+In Chapter 5 of Ethical Machines, Reid Blackman argues that ethical statements should define specific actions and boundaries instead of just listing values like fairness and honesty. This made me realize that believing in something isn't enough if you aren't willing to act on it. One example that stood out to me from our work on AI bias is how a model can still treat people unfairly based on something like their zip code, even if it doesn't directly use their demographic group. This shows why I believe AI decisions should be questioned rather than automatically trusted.
+
+I believe making ethical decisions is worth the extra time and effort because it helps protect the people affected and prevents the same mistakes from happening again. I understand that compromises are sometimes necessary, but I would draw the line when saving time or money comes at the expense of someone's rights or well-being. At the end of the day, I believe people should remain responsible for how AI is used and the consequences of its decisions.
